@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unicorn.SignalR.Api", "backend\Unicorn.SignalR.Api\Unicorn.SignalR.Api.csproj", "{40ECA592-D0D9-4C05-B448-F9F8858E51AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unicorn.SignalR.Model", "backend\Unicorn.SignalR.Model\Unicorn.SignalR.Model.csproj", "{42790E9F-BA1D-4B0D-9597-2F0E6A811817}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40ECA592-D0D9-4C05-B448-F9F8858E51AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40ECA592-D0D9-4C05-B448-F9F8858E51AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40ECA592-D0D9-4C05-B448-F9F8858E51AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40ECA592-D0D9-4C05-B448-F9F8858E51AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42790E9F-BA1D-4B0D-9597-2F0E6A811817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42790E9F-BA1D-4B0D-9597-2F0E6A811817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42790E9F-BA1D-4B0D-9597-2F0E6A811817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42790E9F-BA1D-4B0D-9597-2F0E6A811817}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7E15CA0-77D5-4269-AAF1-C5DD6ED27E51}
+	EndGlobalSection
+EndGlobal

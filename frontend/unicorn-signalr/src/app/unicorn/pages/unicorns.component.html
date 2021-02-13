@@ -1,0 +1,26 @@
+<div class="unicorn-container">
+    <div class="unicorn-content">
+
+        <h1>Hello, there!</h1>
+        <h3>You wanna create a unicorn? 😍</h3>
+
+        <div class="unicorn-actions">
+
+            <button 
+                mat-raised-button class="unicorn-button" 
+                (click)="createUnicorn()">
+                Create one
+            </button>
+
+            <mat-icon 
+                class="unicorn-icon" 
+                matBadge="{{ unicorns }}" 
+                matBadgePosition="before" 
+                matTooltip="How many unicorns do we have?" 
+                svgIcon="unicorn">
+            </mat-icon>
+            
+        </div>
+        
+    </div>
+</div>
